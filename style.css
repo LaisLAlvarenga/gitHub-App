@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding-bottom: 50px;
+}
+
+.followers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.follower {
+    background-color: aqua;
+    border: 1px solid #212121;
+    text-align: center;
+
+    padding-block: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 20%;
+}
