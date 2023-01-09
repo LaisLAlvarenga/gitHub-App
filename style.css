@@ -6,7 +6,7 @@
 }
 
 body {
-    padding: 50px;
+    padding: 150px;
 }
 
 .user {
@@ -25,8 +25,7 @@ body {
 }
 
 .follower {
-    background-color: aqua;
-    border: 1px solid #212121;
+    border: 2px solid #212121;
     text-align: center;
 
     padding-block: 10px;
